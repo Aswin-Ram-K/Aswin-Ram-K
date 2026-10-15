@@ -4,15 +4,14 @@
 
 Chicago, IL · M.A.S. ECE, Illinois Institute of Technology (Fall 2027 expected) · B.Tech ECE, NIT Karnataka
 
-I work on the layer underneath model behaviour: how a state transition decides which model, context
-and tools exist for the step it is about to run, and how an enforcement boundary holds by *absence*
-rather than by refusal. Where I can, I measure the claim instead of asserting it.
+I work on the layer underneath model behaviour: agent orchestration, sandboxed execution and
+control planes for LLM systems. Where I can, I measure the claim instead of asserting it.
 
 ## Featured
 
 | Project | What it is |
 |---|---|
-| **[Consonance](https://github.com/Aswin-Ram-K/Consonance)** | Capability-materialisation kernel for agent runtimes. Each state transition materialises exactly the grants a step needs and revokes them on the next. Enforcement by absence, not refusal. A live A/B holds everything constant except the state class — and the workspace digest stays byte-identical when the capability is absent. |
+| **[Consonance](https://github.com/Aswin-Ram-K/Consonance)** *(private)* | Agent-runtime kernel. In active development; components will be released individually. |
 | **[meta-agent](https://github.com/Aswin-Ram-K/meta-agent)** | Review-first, self-hosted control plane for designing, observing and reviewing multi-agent workflows. FastAPI + PostgreSQL + Temporal + React. |
 
 More: [Valhalla](https://github.com/Aswin-Ram-K/Valhalla) (local-first agent platform) ·
